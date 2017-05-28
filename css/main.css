@@ -1,0 +1,140 @@
+body{
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+/*caracteristicas de lo que sera el pasto donde comienza y termina y su ancho y color*/
+.pasto1{
+	background-color: green;
+	padding-top:150px;
+	margin-top: 500px;
+	width: 100%;
+	position: relative;
+}
+
+/*como formar un elemento redondo que en este caso es el sol*/
+.sol1{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	left: 100px;
+	top: 50px;
+	position: absolute;
+	
+}
+
+/*color forma y tamaño de la casa*/
+.casa{
+	width: 300px;
+	height: 200px;
+	background: #542116  ;
+	margin-left: 800px;
+	position:absolute;
+	bottom: 100px;
+
+}
+
+/*caracteristicas de la puerta*/
+.puerta{
+	width: 90px;
+	height: 120px;
+	background: grey;
+	margin-left: 900px;
+	position:absolute;
+	bottom: 100px;
+}
+
+/*caracteristicas ventana*/
+.ventana{
+	width: 70px;
+	height: 70px;
+	background: #ff62b0;
+	margin-left: 1000px;
+	position:absolute;
+	bottom: 150px;
+}
+
+/*intenté aumentar tamaño del ícono corazón*/
+.corazon{
+	width: 50px;
+	height: 50px;
+	
+}
+
+/*posicion del corazon en la puerta y su color*/
+.corazon i{
+	color: #ff5c5c;
+	position: absolute;
+	bottom: 150px;
+	margin-left: 935px;
+
+}
+
+/*sacado de internet como darle forma al techo*/
+.techo{
+	border-bottom: 100px solid black;
+	height: 200;
+	width: 200px;
+	margin-left: 800px;
+	position:absolute;
+	bottom: 300px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
+
+.chimenea{
+	width: 20px;
+	height: 50px;
+	background: #ff5c5c;
+	margin-left: 1000px;
+	position:absolute;
+	bottom: 320px;
+}
+
+
+/*creación de 3 div para crear las 3 esferas que será el humo de la chimenea*/
+.humo1{
+
+	width: 20px;
+	height: 20px;
+	background: grey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	right: 310px;
+	top: 250px;
+	position: absolute;
+	
+}
+
+.humo2{
+
+	width: 20px;
+	height: 20px;
+	background: grey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	right: 290px;
+	top: 230px;
+	position: absolute;
+	
+}
+
+.humo3{
+
+	width: 20px;
+	height: 20px;
+	background: grey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	right: 270px;
+	top: 210px;
+	position: absolute;
+	
+}
